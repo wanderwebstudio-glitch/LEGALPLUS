@@ -15,6 +15,8 @@ overflow-x: hidden;
             font-family: 'Montserrat', sans-serif;
             color: var(--text-primary);
             overflow-x: hidden;
+            box-sizing: border-box;
+            margin: 0;padding: 0;
         }
         
         h1, h2, h3, h4, h5 {
@@ -58,6 +60,58 @@ overflow-x: hidden;
         .navbar-nav a:hover{
     border-bottom: 2px solid var(--primary-color);
         }
+
+        .language-switcher{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.idiomas{
+   background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-weight: bold;
+    border: 2px solid #ffff;
+    width: 50px;
+    height: 30px;
+}
+
+.btn-espanol{
+    background-image: url('img/bandera-RD.webp');
+ 
+}
+
+.btn-english{
+    background-image: url('img/bandera-USA.png');
+}
+
+.btn-espanol:active{
+    border: 2px solid #398ef0b0!important;
+}
+.btn-english:active{
+    border: 2px solid #c51414b0!important;
+
+}
+
+.tooltip-inner{
+background-color: white;
+color: black;
+font-size: 12px;
+padding: 4px 8px;
+border-radius: 6px;
+box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.tooltip.bs-tooltip-left .tooltip-arrow::before{
+border-left-color: white;
+}
+
         /* Hero Section */
         .hero-section {
             background: linear-gradient(rgba(255, 255, 255, 0.664), rgba(255, 255, 255, 0.836)), 
@@ -101,7 +155,9 @@ overflow-x: hidden;
             margin-bottom: 2rem;
             max-width: 600px;
         }
-        
+        .equipo-02{
+            max-height: 600px;
+        }
         /* Cards */
         .service-card, .team-card, .testimonial-card {
             border: none;
