@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LegalPlus - Abogados Consultores</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- AOS Animations -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="img/favicon.jpeg" type="image/x-icon">
+</head>
+<body>
+  <!-- Navbar -->
+   <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+<div class="container">
+    
+    <a class="navbar-brand" href="#inicio">
+        <i class="material-icons">balance</i><span>|</span>
+        LEGAL<span>PLUS</span>
+        <div data-i18n="abogados">ABOGADOS CONSULTORES</div>
+    </a>
+
+    <button class="navbar-toggler" 
+            type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+
+        <ul class="navbar-nav ms-auto">
+
+            <li class="nav-item">
+                <a class="nav-link" href="#inicio" data-i18n="inicio">Inicio</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#servicios" data-i18n="servicios">Servicios</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#nosotros" data-i18n="nosotros">Nosotros</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#equipo" data-i18n="equipo">Equipo</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#blog" data-i18n="blog">Blog</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#contacto" data-i18n="contacto">Contacto</a>
+            </li>
+
+        </ul>
+
+        <a href="#contacto" 
+           class="btn btn-primary-custom ms-lg-3 mt-3 mt-lg-0"
+           data-i18n="consulta">
+           Consulta Gratis
+        </a>
+
+    </div>
+</div>
+</nav>
+
+<!-- BOTÓN FLOTANTE DE IDIOMA -->
+<div class="language-switcher">
+<button class="btn btn-light btn-sm shadow btn-espanol idiomas"
+        onclick="cambiarIdioma('es')"
+        data-bs-toggle="tooltip"
+        data-bs-placement="left"
+        title="Español">
+</button>
+
+<button class="btn btn-light btn-sm shadow btn-english idiomas"
+        onclick="cambiarIdioma('en')"
+        data-bs-toggle="tooltip"
+        data-bs-placement="left"
+        title="English">
+</button>
+
+</div>
+
+<!-- Hero Section -->
+<section id="inicio" class="hero-section">
+    <div class="container">
+        <div class="row align-items-center">
+
+            <div class="col-lg-6" data-aos="fade-right">
+
+                <h1 class="hero-title" data-i18n="heroTitulo">
+                    Expertos en Soluciones Legales
+                </h1>
+
+                <p class="hero-subtitle" data-i18n="heroTexto">
+                    En <strong>LegalPlus</strong> combinamos experiencia jurídica con un enfoque moderno para ofrecer soluciones legales efectivas y personalizadas. Nuestro bufete está comprometido con la excelencia y la protección de tus intereses.
+                </p>
+
+                <div class="d-flex flex-wrap gap-3">
+                    <a href="#contacto"
+                       class="btn btn-primary-custom"
+                       data-i18n="btnAsesoria">
+                       Solicitar Asesoría
+                    </a>
+
+                    <a href="#servicios"
+                       class="btn btn-outline-custom"
+                       data-i18n="btnServicios">
+                       Nuestros Servicios
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="col-lg-6 mt-5 mt-lg-0" data-aos="fade-left">
+                <div class="text-center">
+                    <div class="floating">
+                        <img src="img/img-abogados.webp"
+                             alt="LegalPlus Abogados"
+                             class="img-abogados">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- Servicios -->
+<section id="servicios" class="section-padding bg-light">
+    <div class="container">
+
+        <div class="row mb-5">
+            <div class="col-12 text-center">
+
+                <h2 class="section-title"
+                    data-aos="fade-up"
+                    data-i18n="tituloServicios">
+                    Nuestros Servicios
+                </h2>
+
+                <p class="lead"
+                   data-aos="fade-up"
+                   data-aos-delay="100"
+                   data-i18n="subServicios">
+                   Ofrecemos asesoría legal integral en todas las áreas del derecho
+                </p>
+
+            </div>
+        </div>
+
+
+        <div class="row g-4">
+
+            <!-- Servicio 1 -->
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="service-card card shadow-sm p-4 h-100">
+
+                    <div class="service-icon">
+                        <i class="material-icons">gavel</i>
+                    </div>
+
+                    <h4 data-i18n="serv1Titulo">Derecho Corporativo</h4>
+
+                    <p class="text-secondary" data-i18n="serv1Texto">
+                        Asesoría legal para empresas, constitución de sociedades, fusiones y adquisiciones, contratos comerciales y cumplimiento regulatorio.
+                    </p>
+
+                    <a href="#"
+                       class="text-primary fw-bold mt-auto"
+                       data-i18n="masInfo">
+                       Más información →
+                    </a>
+
+                </div>
+            </div>
+
+
+            <!-- Servicio 2 -->
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                <div class="service-card card shadow-sm p-4 h-100">
+
+                    <div class="service-icon">
+                        <i class="material-icons">family_restroom</i>
+                    </div>
+
+                    <h4 data-i18n="serv2Titulo">Derecho Familiar</h4>
+
+                    <p class="text-secondary" data-i18n="serv2Texto">
+                        Divorcios, custodia de menores, alimentos, división de bienes y sucesiones. Protegemos los intereses de tu familia con sensibilidad y profesionalismo.
+                    </p>
+
+                    <a href="#"
+                       class="text-primary fw-bold mt-auto"
+                       data-i18n="masInfo">
+                       Más información →
+                    </a>
+
+                </div>
+            </div>
+
+
+            <!-- Servicio 3 -->
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="400">
+                <div class="service-card card shadow-sm p-4 h-100">
+
+                    <div class="service-icon">
+                        <i class="material-icons">work</i>
+                    </div>
+
+                    <h4 data-i18n="serv3Titulo">Derecho Laboral</h4>
+
+                    <p class="text-secondary" data-i18n="serv3Texto">
+                        Asesoría a empleadores y trabajadores, despidos, negociación colectiva, acoso laboral y cumplimiento de normativas laborales.
+                    </p>
+
+                    <a href="#"
+                       class="text-primary fw-bold mt-auto"
+                       data-i18n="masInfo">
+                       Más información →
+                    </a>
+
+                </div>
+            </div>
+
+
+            <!-- Servicio 4 -->
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="service-card card shadow-sm p-4 h-100">
+
+                    <div class="service-icon">
+                        <i class="material-icons">home</i>
+                    </div>
+
+                    <h4 data-i18n="serv4Titulo">Derecho Inmobiliario</h4>
+
+                    <p class="text-secondary" data-i18n="serv4Texto">
+                        Compraventa de propiedades, arrendamientos, trámites notariales, litigios de propiedad y desarrollo de proyectos inmobiliarios.
+                    </p>
+
+                    <a href="#"
+                       class="text-primary fw-bold mt-auto"
+                       data-i18n="masInfo">
+                       Más información →
+                    </a>
+
+                </div>
+            </div>
+
+
+            <!-- Servicio 5 -->
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                <div class="service-card card shadow-sm p-4 h-100">
+
+                    <div class="service-icon">
+                        <i class="material-icons">health_and_safety</i>
+                    </div>
+
+                    <h4 data-i18n="serv5Titulo">Derecho de Salud</h4>
+
+                    <p class="text-secondary" data-i18n="serv5Texto">
+                        Asesoría a instituciones de salud, responsabilidad médica, regulación sanitaria y protección de derechos de pacientes.
+                    </p>
+
+                    <a href="#"
+                    class="text-primary fw-bold mt-auto"
+                    data-i18n="masInfo">
+                    Más información →
+                    </a>
+
+                </div>
+            </div>
+
+
+            <!-- Servicio 6 -->
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="400">
+                <div class="service-card card shadow-sm p-4 h-100">
+
+                    <div class="service-icon">
+                        <i class="material-icons">account_balance</i>
+                    </div>
+
+                    <h4 data-i18n="serv6Titulo">Litigios y Arbitraje</h4>
+
+                    <p class="text-secondary" data-i18n="serv6Texto">
+                        Representación en tribunales, arbitrajes nacionales e internacionales, mediación y resolución alternativa de conflictos.
+                    </p>
+
+                    <a href="#"
+                    class="text-primary fw-bold mt-auto"
+                    data-i18n="masInfo">
+                    Más información →
+                    </a>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+<!-- Sobre Nosotros -->
+<section id="nosotros" class="section-padding">
+<div class="container">
+<div class="row align-items-center">
+
+<div class="col-lg-6 mb-5 mb-lg-0" data-aos="fade-right">
+
+<h2 class="section-title" data-i18n="sobreTitulo">
+Sobre LegalPlus
+</h2>
+
+
+
+<p class="lead" data-i18n="sobreSubtitulo">
+Más de 25 años de excelencia jurídica
+</p>
+
+<p data-i18n="sobreTexto1">
+Fundado en 1998, LegalPlus Abogados Consultores se ha consolidado como un referente en el sector legal, combinando tradición jurídica con un enfoque innovador y adaptado a las necesidades actuales.
+</p>
+
+<p data-i18n="sobreTexto2">
+Nuestro equipo multidisciplinario ofrece soluciones legales integrales, siempre priorizando la relación cercana con nuestros clientes y la búsqueda de resultados efectivos.
+</p>
+
+<div class="row mt-4">
+
+<div class="col-6">
+<h3 class="fw-bold">200+</h3>
+<p class="text-secondary" data-i18n="casos">Casos Exitosos</p>
+</div>
+
+<div class="col-6">
+<h3 class="fw-bold">25+</h3>
+<p class="text-secondary" data-i18n="experiencia">Años de Experiencia</p>
+</div>
+
+<div class="col-6">
+<h3 class="fw-bold">7</h3>
+<p class="text-secondary" data-i18n="abogados">Abogados Especializados</p>
+</div>
+
+<div class="col-6">
+<h3 class="fw-bold">98%</h3>
+<p class="text-secondary" data-i18n="satisfaccion">Satisfacción del Cliente</p>
+</div>
+
+</div>
+</div>
+
+<div class="col-lg-6" data-aos="fade-left">
+
+<div class="position-relative">
+
+<img src="img/equipo-02.webp"
+alt="Oficinas LegalPlus"
+class="img-fluid rounded shadow-lg equipo-02">
+
+<div class="position-absolute bottom-0 end-0 bg-white p-4 rounded shadow m-3" style="max-width:300px;">
+
+<h5 class="fw-bold" data-i18n="filosofiaTitulo">
+Nuestra Filosofía
+</h5>
+
+<p class="mb-0" data-i18n="filosofiaTexto">
+"La excelencia jurídica no es un objetivo, es nuestro estándar diario."
+</p>
+
+<p class="text-secondary mt-2 mb-0">
+<small data-i18n="fundador">
+Fernando  A. Ozuna Socio Fundador
+</small>
+</p>
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+
+<!-- Equipo -->
+<section id="equipo" class="section-padding bg-light">
+
+<div class="container">
+
+<div class="row mb-5">
+<div class="col-12 text-center">
+
+<h2 class="section-title" data-i18n="equipoTitulo">
+Nuestro Equipo
+</h2>
+
+<p class="lead" data-i18n="equipoSub">
+Profesionales comprometidos con tu éxito legal
+</p>
+
+</div>
+</div>
+
+    <!-- Equipo -->
+        <div class="container">
+            <div class="row g-4">
+                <!-- Miembro 1 -->
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+                    <div class="team-card card shadow-sm">
+                        <img src="img/Winston_Tejeda.webp" 
+                             class="card-img-top team-img" alt="Carlos Rodríguez">
+                        <div class="card-body p-4">
+                            <h5 class="card-title">Winston Tejeda</h5>
+                            <p class="card-text text-secondary">Socio Fundador - Derecho Corporativo</p>
+                            <p class="small">Más de 25 años de experiencia en derecho empresarial y financiero.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Miembro 2 -->
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+                    <div class="team-card card shadow-sm">
+                        <img src="img/Jhonyfer_Valera.webp" 
+                             class="card-img-top team-img" alt="jhonyfer valera">
+                        <div class="card-body p-4">
+                            <h5 class="card-title">Jhonyfer Valera</h5>
+                            <p class="card-text text-secondary">Socia - Derecho Familiar y Civil</p>
+                            <p class="small">Especialista en derecho de familia con enfoque en soluciones conciliatorias.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Miembro 3 -->
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
+                    <div class="team-card card shadow-sm">
+                        <img src="img/Fernando_Adan_Ozuna.webp" 
+                             class="card-img-top team-img img-abogadoo-03" alt="Fernando Adán Ozuna">
+                        <div class="card-body p-4">
+                            <h5 class="card-title">Fernando Adán Ozuna</h5>
+                            <p class="card-text text-secondary">Socio - Litigios y Arbitraje</p>
+                            <p class="small">Experto en litigios complejos y arbitrajes internacionales.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+<div class="container mt-5">
+<div class="row align-items-center">
+
+<div class="col-lg-6 mb-5 mb-lg-0" data-aos="fade-right">
+<div class="mt-4">
+<p class="mb-3">
+<strong>Licdo. Winston Tejeda Jiménez</strong><br>
+<span class="text-secondary">CEO – Socio Principal</span>
+</p>
+
+<h5 class="fw-bold mb-3 mt-4">
+Abogados Asociados
+</h5>
+
+<ul class="list-unstyled">
+
+<li class="mb-2">
+Licdo. Fernando Adán Ozuna Morla – Abogado Asociado
+</li>
+
+<li class="mb-2">
+Licdo. Johnnyfer Varela Martínez – Abogado Asociado
+</li>
+
+<li class="mb-2">
+Licdo. José Domingo Pichardo Ramírez – Abogado Asociado
+</li>
+
+<li class="mb-2">
+Licda. Yokaira Karina Pérez Chivilli – Abogada Asociada – Of Counsel
+</li>
+
+<li class="mb-2">
+Licda. Ella Nayira Medina Feliz – Abogada Asociada – Of Counsel
+</li>
+
+<li class="mb-2">
+Licdo. Norberto A. de la Rosa Herrera – Abogado Asociado – Of Counsel
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+<div class="col-lg-6" data-aos="fade-left">
+
+<div class="position-relative">
+
+<img src="img/img-equipo-01.webp"
+alt="Oficinas LegalPlus"
+class="img-fluid rounded shadow-lg">
+
+
+</div>
+</div>
+
+</div>
+</div>
+
+
+</div>
+</div>
+</section>
+
+
+<!-- Ubicación -->
+<section id="ubicacion" class="section-padding bg-light">
+
+<div class="container">
+
+<div class="row mb-5">
+<div class="col-12 text-center">
+
+<h2 class="section-title">
+Nuestra Ubicación
+</h2>
+
+<p class="lead">
+Visítanos en nuestra oficina en Punta Cana
+</p>
+
+</div>
+</div>
+
+
+<div class="row align-items-center g-4">
+
+<!-- Información de dirección -->
+<div class="col-lg-4">
+
+<div class="card shadow-sm p-4 border-0 h-100" data-aos="fade-right">
+
+<h5 class="fw-bold mb-3">
+<i class="material-icons me-2" style="vertical-align:middle;">place</i>
+Dirección
+</h5>
+
+<p class="text-secondary mb-4">
+Calle Los Taínos, Local #03<br>
+Plaza Marbella<br>
+Bávaro, Punta Cana<br>
+República Dominicana
+</p>
+
+<h6 class="fw-bold">
+<i class="material-icons me-2" style="vertical-align:middle;">schedule</i>
+Horario
+</h6>
+
+<p class="text-secondary mb-0">
+Lunes – Viernes: 9:00 AM – 6:00 PM
+</p>
+
+<p class="text-secondary">
+Sábados: 10:00 AM – 2:00 PM
+</p>
+
+<a href="https://www.google.com/maps/place/LegalPlus+Abogados+Consultores/@18.6846947,-68.4600528,17z/data=!3m1!4b1!4m6!3m5!1s0x8ea8eb0058b949c9:0x3ff1289ab6d506cc!8m2!3d18.6846896!4d-68.4574779!16s%2Fg%2F11y6vl03jl?entry=ttu&g_ep=EgoyMDI2MDMwMi4wIKXMDSoASAFQAw%3D%3D"
+target="_blank"
+class="btn btn-primary-custom mt-3">
+
+Abrir en Google Maps
+
+</a>
+
+</div>
+
+</div>
+
+
+<!-- Mapa -->
+<div class="col-lg-8">
+
+<div class="shadow rounded overflow-hidden" data-aos="fade-left">
+
+<iframe
+src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d60467.00432369482!2d-68.46300593593749!3d18.700409792460093!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ea8eb0058b949c9%3A0x3ff1289ab6d506cc!2sLegalPlus%20Abogados%20Consultores!5e0!3m2!1ses-419!2sdo!4v1772817275794!5m2!1ses-419!2sdo"
+width="100%"
+height="450"
+style="border:0;"
+allowfullscreen=""
+loading="lazy">
+</iframe>
+</div>
+
+</div>
+
+</div>
+
+</div>
+</section>
+
+
+<!-- Contacto -->
+<section id="contacto" class="section-padding">
+<div class="container">
+
+<div class="row mb-5">
+<div class="col-12 text-center">
+<h2 class="section-title" data-i18n="contactTitulo">Contáctanos</h2>
+<p class="lead" data-i18n="contactSub">
+Estamos aquí para ayudarte con tus necesidades legales
+</p>
+</div>
+</div>
+
+<div class="row">
+<div class="col-lg-8 mx-auto">
+<div class="contact-form card shadow-sm p-4 p-md-5">
+
+<form id="contactForm">
+
+<div class="row">
+
+<div class="col-md-6 mb-3">
+<label class="form-label" data-i18n="nombre">Nombre completo *</label>
+<input type="text" class="form-control" id="name" required>
+</div>
+
+<div class="col-md-6 mb-3">
+<label class="form-label" data-i18n="correo">Correo electrónico *</label>
+<input type="email" class="form-control" id="email" required>
+</div>
+
+</div>
+
+<div class="mb-3">
+<label class="form-label" data-i18n="telefono">Teléfono</label>
+<input type="tel" class="form-control" id="phone">
+</div>
+
+<div class="mb-3">
+<label class="form-label" data-i18n="area">Área de interés</label>
+
+<select class="form-select" id="service">
+
+<option selected data-i18n="seleccionaServicio">
+Selecciona un servicio
+</option>
+
+<option value="corporativo" data-i18n="corp">Derecho Corporativo</option>
+<option value="familiar" data-i18n="fam">Derecho Familiar</option>
+<option value="laboral" data-i18n="lab">Derecho Laboral</option>
+<option value="inmobiliario" data-i18n="inmo">Derecho Inmobiliario</option>
+<option value="salud" data-i18n="salud">Derecho de Salud</option>
+<option value="litigios" data-i18n="litigios">Litigios y Arbitraje</option>
+<option value="otro" data-i18n="otro">Otro</option>
+
+</select>
+</div>
+
+<div class="mb-3">
+<label class="form-label" data-i18n="mensaje">Mensaje *</label>
+<textarea class="form-control" rows="5" required></textarea>
+</div>
+
+<div class="d-grid">
+<button type="submit" class="btn btn-primary-custom btn-lg"
+data-i18n="enviarMensaje">
+Enviar Mensaje
+</button>
+</div>
+
+<p class="text-secondary small mt-3" data-i18n="nota">
+* Los campos marcados son obligatorios. Te contactaremos en un plazo máximo de 24 horas.
+</p>
+
+</form>
+
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Footer Español -->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-4 mb-4 mb-lg-0">
+                <div class="footer-logo">LEGAL<span>PLUS</span></div>
+                <p data-i18n="slogan" data-i18n="description">ABOGADOS CONSULTORES</p>
+
+                <p class="mt-3" data-i18n="description">
+                    Más de 25 años brindando excelencia jurídica y soluciones legales innovadoras para nuestros clientes.
+                </p>
+
+                <div class="social-links">
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-instagram"></i>
+                    <i class="bi bi-linkedin"></i>
+                    <i class="bi bi-whatsapp"></i>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+                <h5 class="mb-3" data-i18n="linksTitle">Enlaces</h5>
+
+                <div class="footer-links">
+                    <a href="#inicio" data-i18n="inicio">Inicio</a>
+                    <a href="#servicios" data-i18n="servicios">Servicios</a>
+                    <a href="#nosotros" data-i18n="nosotros">Nosotros</a>
+                    <a href="#equipo" data-i18n="equipo">Equipo</a>
+                    <a href="#contacto" data-i18n="contacto">Contacto</a>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                <h5 class="mb-3" data-i18n="contactTitle">Contacto</h5>
+
+                <div class="footer-links">
+                    <p>
+                        <i class="material-icons me-2" style="vertical-align: middle;">place</i>
+                        Av. Principal 123, Ciudad
+                    </p>
+
+                    <p>
+                        <i class="material-icons me-2" style="vertical-align: middle;">phone</i>
+                        +1 809 605 7567
+                    </p>
+
+                    <p>
+                        <i class="material-icons me-2" style="vertical-align: middle;">email</i>
+                        Legalplusabogadosd@gmail.com
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <h5 class="mb-3" data-i18n="scheduleTitle">Horario</h5>
+
+                <div class="footer-links">
+                    <p data-i18n="weekday" >Lunes - Viernes: 9:00 - 18:00</p>
+                    <p data-i18n="saturday">Sábados: 10:00 - 14:00</p>
+                    <p data-i18n="sunday">Domingos: Cerrado</p>
+                </div>
+
+                <div class="mt-4">
+                    <a href="#" class="btn btn-outline-custom border-white text-white" data-i18n="appointmentButton">
+                        Agendar Cita
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <hr class="mt-5 mb-4">
+
+        <div class="row">
+
+            <div class="col-md-6 text-center text-md-start">
+                <p class="small mb-0" data-i18n="copyright">
+                    © 2023 LegalPlus Abogados Consultores. Todos los derechos reservados.
+                </p>
+            </div>
+
+            <div class="col-md-6 text-center text-md-end">
+                <p class="small mb-0" data-i18n="design">
+                    Diseño adaptado a Material Design 3
+                </p>
+            </div>
+
+        </div>
+    </div>
+</footer>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS Animations -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
