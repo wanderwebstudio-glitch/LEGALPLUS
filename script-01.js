@@ -113,7 +113,7 @@ abogados:"ABOGADOS CONSULTORES",
 
 /* HERO */
 heroTitulo:"Expertos en Soluciones Legales",
-heroTexto:"En LegalPlus combinamos experiencia jurídica con un enfoque moderno para ofrecer soluciones legales efectivas y personalizadas. Nuestro bufete está comprometido con la excelencia y la protección de tus intereses.",
+heroTexto: "En <strong>LegalPlus</strong> somos un bufete de abogados en República Dominicana especializado en brindar asesoría legal profesional en derecho civil, penal, familiar y corporativo. Nuestro equipo combina experiencia jurídica y un enfoque moderno para ofrecer soluciones legales efectivas y proteger los intereses de nuestros clientes.",
 btnAsesoria:"Solicitar Asesoría",
 btnServicios:"Nuestros Servicios",
 
@@ -233,7 +233,7 @@ consulta:"Free Consultation",
 abogados:"LEGAL CONSULTANTS",
 /* HERO */
 heroTitulo:"Experts in Legal Solutions",
-heroTexto:"At LegalPlus we combine legal expertise with a modern approach to deliver effective and personalized legal solutions. Our firm is committed to excellence and protecting your interests.",
+heroTexto:"At <strong>LegalPlus</strong>, we are a law firm in the Dominican Republic specialized in providing professional legal advice in civil, criminal, family, and corporate law. Our team combines legal expertise with a modern approach to deliver effective legal solutions and protect our clients’ interests.",
 btnAsesoria:"Request Consultation",
 btnServicios:"Our Services",
 
@@ -348,8 +348,16 @@ const elementos = document.querySelectorAll("[data-i18n]");
 elementos.forEach(elemento => {
 
 const clave = elemento.getAttribute("data-i18n");
+const traduccion = traducciones[idioma][clave];
 
-elemento.textContent = traducciones[idioma][clave];
+if(!traduccion) return;
+
+// Si el elemento tiene HTML dentro, no lo reemplaza completo
+if(elemento.children.length > 0){
+    elemento.innerHTML = traduccion;
+}else{
+    elemento.textContent = traduccion;
+}
 
 });
 
