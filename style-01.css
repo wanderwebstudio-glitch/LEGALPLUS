@@ -23,7 +23,9 @@ overflow-x: hidden;
             font-family: 'Playfair Display', serif;
             font-weight: 600;
         }
-        
+        a{
+    text-decoration: none;
+        }
         img{
             width: 100%;
         }
@@ -252,15 +254,15 @@ border-left-color: white;
 }
         /* Team Section */
         .team-img {
-            height: 50%;
+            height: 60%;
             text-align: center;
             object-fit: cover;
             object-position: top;
         }
-        .img-abogadoo-03{
-clip-path: polygon(0 46%, 29% 46%, 21% 6%, 74% 10%, 82% 45%, 100% 52%, 100% 85%, 100% 100%, 85% 100%, 15% 100%, 0 100%, 0% 85%);
+.img-abogado-01{
+            height: 80%;
 
-        }
+}
         /* Contact Form */
         .contact-form .form-control {
             border-radius: 8px;
