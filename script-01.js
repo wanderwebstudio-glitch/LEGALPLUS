@@ -72,8 +72,33 @@ const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl =>
         });
 
 
-// Traducciones para el sitio web
+document.getElementById("contactForm").addEventListener("submit", function(e) {
+e.preventDefault();
 
+let nombre = document.getElementById("name").value;
+let email = document.getElementById("email").value;
+let telefono = document.getElementById("phone").value;
+let servicio = document.getElementById("service").value;
+let mensaje = document.querySelector("textarea").value;
+
+let numeroWhatsApp = "18096057567"; // CAMBIA ESTE NÚMERO
+
+let texto = `Hola, recibiste un nuevo mensaje desde tu página web:
+
+Nombre: ${nombre}
+Correo: ${email}
+Teléfono: ${telefono}
+Servicio: ${servicio}
+
+Mensaje:
+${mensaje}`;
+
+let url = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(texto)}`;
+
+window.open(url, "_blank");
+});
+
+// Traducciones para el sitio web
 const traducciones = {
 
 es:{
