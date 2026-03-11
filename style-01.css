@@ -340,6 +340,11 @@ border-left-color: white;
     box-shadow: 0 20px 40px rgba(0,0,0,0.15);
     border-radius: 20px;
     padding: 5px;
+    height: 70%;
+        }
+
+        .abogado-trato{
+max-height: 600px!important;
         }
         
         @keyframes fadeIn {
