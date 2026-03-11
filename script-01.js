@@ -165,6 +165,25 @@ equipoSub:"Profesionales comprometidos con tu éxito legal",
 cargo1:"Socio Fundador - Derecho Corporativo",
 bio1:"Más de 25 años de experiencia en derecho empresarial y financiero.",
 
+//MAPA
+
+ubicacionTitulo:"Nuestra Ubicación",
+ubicacionSub:"Visítanos en nuestra oficina en Punta Cana",
+
+direccionTitulo:"Dirección",
+direccionTexto:`Calle Los Taínos, Local #03<br>
+Plaza Marbella<br>
+Bávaro, Punta Cana<br>
+República Dominicana`,
+
+horarioTitulo:"Horario",
+
+horarioSemana:"Lunes – Viernes: 9:00 AM – 6:00 PM",
+horarioSabado:"Sábados: 10:00 AM – 2:00 PM",
+
+abrirMapa:"Abrir en Google Maps",
+
+
 // CONTACTO
 
 contactTitulo:"Contáctanos",
@@ -283,6 +302,25 @@ equipoSub:"Professionals committed to your legal success",
 
 cargo1:"Founding Partner - Corporate Law",
 bio1:"More than 25 years of experience in corporate and financial law.",
+
+//MAPA
+
+ubicacionTitulo:"Our Location",
+ubicacionSub:"Visit us at our office in Punta Cana",
+
+direccionTitulo:"Address",
+direccionTexto:`Los Taínos Street, Unit #03<br>
+Plaza Marbella<br>
+Bávaro, Punta Cana<br>
+Dominican Republic`,
+
+horarioTitulo:"Schedule",
+
+horarioSemana:"Monday – Friday: 9:00 AM – 6:00 PM",
+horarioSabado:"Saturday: 10:00 AM – 2:00 PM",
+
+abrirMapa:"Open in Google Maps",
+
 
 // CONTACTO
 
