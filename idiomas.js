@@ -1,4 +1,7 @@
 
+console.log("Sitio desarrollado por Wander Misael https://wanderwebstudio.shop/");
+
+
 // Traducciones para el sitio web
 const traducciones = {
 
@@ -49,7 +52,7 @@ sobreSubtitulo: "Más de una década brindando soluciones legales en República 
     sobreParrafo1: "LegalPlus Abogados Consultores es una firma de abogados en República Dominicana con una sólida trayectoria en el sector jurídico. Nuestra historia inicia en el año 2011 bajo el nombre de <strong>Tejeda & Jiménez Asociados</strong>, destacándonos desde el inicio por nuestro compromiso con la ética profesional, el análisis jurídico estratégico y la defensa efectiva de los intereses de nuestros clientes.",
     sobreParrafo2: "Durante más de una década hemos acompañado a empresas, profesionales y particulares ofreciendo <strong>asesoría legal especializada</strong> en diversas áreas del derecho. Nuestro enfoque combina experiencia jurídica, cercanía con el cliente y soluciones legales diseñadas para cada caso.",
     sobreParrafo3: "En el año 2022 realizamos una transformación estratégica que dio origen a <strong>LegalPlus Abogados Consultores</strong>. Esta evolución representa la integración de nuestra experiencia legal con un enfoque moderno basado en tecnología, eficiencia y transparencia en los procesos jurídicos.",
-     estadisticaCasos: "200+",
+    estadisticaCasos: "200+",
     estadisticaCasosTexto: "Casos legales resueltos",
     estadisticaAnios: "12+",
     estadisticaAniosTexto: "Años de experiencia jurídica",
@@ -78,7 +81,17 @@ equipo3Descripcion:"Especialista en Derecho Constitucional, Derecho Penal y Proc
 equipo4Cargo:"Dirección Administrativa y Financiera",
 equipo4Descripcion:"Encargada de Administración y Finanzas. Responsable de la gestión operativa, control presupuestario y optimización de recursos de la firma.",
 
-cargoCEO:"CEO – Socio Principal",
+
+equipo5Cargo:"Especialista en Derecho Laboral y Familiar.",
+equipo5Descripcion:"Especialista en responsabilidad civil y accidentes de tránsito, con experiencia en la defensa de los derechos de trabajadores y particulares.",
+
+equipo6Cargo:"Dirección Administrativa y Financiera",
+equipo6Descripcion:"Encargada de Administración y Finanzas. Responsable de la gestión operativa, control presupuestario y optimización de recursos de la firma.",
+
+equipo7Cargo:"Civil y Procesal; Contratos y Responsabilidad Civil.",
+equipo7Descripcion:"Experta en Derecho Civil y Procesal Civil. Responsabilidad Civil y gestión de Contratos y Obligaciones.",
+
+cargoCEO:"- Socio Fundador",
 tituloAbogadosAsociados:"Abogados Asociados",
 
 abogadoAsociado:"Abogado Asociado",
@@ -107,13 +120,13 @@ ubicacionSub:"Visítanos en nuestra oficina en Punta Cana",
 direccionTitulo:"Dirección",
 direccionTexto:`Calle Los Taínos, Local #03<br>
 Plaza Marbella<br>
-Bávaro, Punta Cana<br>
-República Dominicana`,
+Bávaro, Punta Cana,<br>
+Santo Domingo`,
 
 horarioTitulo:"Horario",
 
 horarioSemana:"Lunes – Viernes: 9:00 AM – 6:00 PM",
-horarioSabado:"Sábados: 10:00 AM – 2:00 PM",
+horarioSabado:" Sabado Cerrado",
 
 abrirMapa:"Abrir en Google Maps",
 
@@ -190,7 +203,7 @@ abogadosAsociadosCierre:"Gracias a la combinación de experiencia, ética profes
     scheduleTitle: "Horario",
     
         weekday: "Lunes - Viernes: 9:00 - 18:00",
-        saturday: "Sábados: 10:00 - 14:00",
+        
         sunday: "Domingos: Cerrado",
 
     appointmentButton: "Agendar Cita",
@@ -274,7 +287,18 @@ equipo3Descripcion:"Specialist in Constitutional Law, Criminal Law and Criminal 
 equipo4Cargo:"Administrative and Financial Management",
 equipo4Descripcion:"Head of Administration and Finance. Responsible for operational management, budget control and optimization of the firm's resources.",
 
-cargoCEO:"CEO – Managing Partner",
+
+equipo5Cargo:"Specialist in Labor and Family Law.",
+equipo5Descripcion:"Specialist in civil liability and traffic accidents, with experience in defending the rights of workers and individuals.",
+
+
+equipo6Cargo:"Administrative and Financial Management",
+equipo6Descripcion:"Head of Administration and Finance. Responsible for operational management, budget control, and optimization of the firm's resources.",
+
+equipo7Cargo:"Civil and Procedural Law; Contracts and Civil Liability.",
+equipo7Descripcion:"Expert in Civil Law and Civil Procedure. Civil liability and management of contracts and obligations.",
+
+cargoCEO:"- Founding Partner",
 tituloAbogadosAsociados:"Associate Lawyers",
 
 abogadoAsociado:"Associate Lawyer",
@@ -301,13 +325,13 @@ ubicacionSub:"Visit us at our office in Punta Cana",
 direccionTitulo:"Address",
 direccionTexto:`Los Taínos Street, Unit #03<br>
 Plaza Marbella<br>
-Bávaro, Punta Cana<br>
-Dominican Republic`,
+Bávaro, Punta Cana,<br>
+Santo Domingo, Dominican Republic`,
 
 horarioTitulo:"Schedule",
 
 horarioSemana:"Monday – Friday: 9:00 AM – 6:00 PM",
-horarioSabado:"Saturday: 10:00 AM – 2:00 PM",
+horarioSabado:"Saturday: Closed",
 
 abrirMapa:"Open in Google Maps",
 
@@ -382,7 +406,7 @@ abogadosAsociadosCierre:"Thanks to the combination of experience, professional e
     scheduleTitle: "Schedule",
    
         weekday: "Monday - Friday: 9:00 - 18:00",
-        saturday: "Saturday: 10:00 - 14:00",
+        
         sunday: "Sunday: Closed",
 
     appointmentButton: "Book Appointment",
