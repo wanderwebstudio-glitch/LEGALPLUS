@@ -68,8 +68,8 @@ sobreSubtitulo: "Más de una década brindando soluciones legales en República 
     equipoTitulo:"Nuestro Equipo",
 equipoSub:"Profesionales comprometidos con tu éxito legal",
 
-    equipo1Cargo:"Especialista en Derecho Civil y Procesal Civil.",
-equipo1Descripcion:"Especialista en derecho empresarial y financiero, Experto en litigios complejos, Resolución de conflictos, Derecho Bancario, Mercantil y Marítimo",
+    equipo1Cargo:`Especialista en Derecho Civil, Comercial, Corporativo y Empresarial. Constitución de sociedades y negociación de contratos nacionales e internacionales.`,
+equipo1Descripcion:`Experiencia en gobierno corporativo, cumplimiento normativo, derecho bancario y gestión de activos. Litigación estratégica, resolución de conflictos, responsabilidad civil, sucesiones y derecho laboral.`,
 
 equipo2Cargo:"Socia - Derecho Familiar y Civil",
 equipo2Descripcion:"Especialista en Derecho de la Propiedad (Inmobiliario), Derecho de Familia y Derecho Civil.",
@@ -84,7 +84,7 @@ equipo4Descripcion:"Encargada de Administración y Finanzas. Responsable de la g
 equipo5Cargo:"Especialista en Derecho Laboral y Familiar.",
 equipo5Descripcion:"Especialista en responsabilidad civil y accidentes de tránsito, con experiencia en la defensa de los derechos de trabajadores y particulares.",
 
-equipo6Cargo:"Dirección Administrativa y Financiera",
+equipo6Cargo:"Especialista en Derecho de Familia, regímenes matrimoniales y Consultoría en Derecho Sustantivo y RR.HH",
 equipo6Descripcion:"Encargada de Administración y Finanzas. Responsable de la gestión operativa, control presupuestario y optimización de recursos de la firma.",
 
 equipo7Cargo:"Civil y Procesal; Contratos y Responsabilidad Civil.",
@@ -276,8 +276,9 @@ sobreSubtitulo: "Over a decade providing legal solutions in the Dominican Republ
 equipoTitulo:"Our Team",
 equipoSub:"Professionals committed to your legal success",
 
-equipo1Cargo:"Specialist in Civil Law and Civil Procedure.",
-equipo1Descripcion:"Specialist in corporate and financial law, expert in complex litigation, conflict resolution, banking, commercial and maritime law.",
+equipo1Cargo: `Specialist in Civil, Commercial, Corporate, and Business Law. Company formation and contract negotiation at both national and international levels.`,
+
+equipo1Descripcion: `Experience in corporate governance, regulatory compliance, banking law, and asset management. Strategic litigation, dispute resolution, civil liability, estate planning, and labor law.`,
 
 equipo2Cargo:"Partner - Family and Civil Law",
 equipo2Descripcion:"Specialist in Property Law (Real Estate), Family Law and Civil Law.",
@@ -293,7 +294,7 @@ equipo5Cargo:"Specialist in Labor and Family Law.",
 equipo5Descripcion:"Specialist in civil liability and traffic accidents, with experience in defending the rights of workers and individuals.",
 
 
-equipo6Cargo:"Administrative and Financial Management",
+equipo6Cargo: "Specialist in Family Law, marital regimes, and consulting in Substantive Law and Human Resources.",
 equipo6Descripcion:"Head of Administration and Finance. Responsible for operational management, budget control, and optimization of the firm's resources.",
 
 equipo7Cargo:"Civil and Procedural Law; Contracts and Civil Liability.",
