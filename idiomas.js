@@ -68,8 +68,8 @@ sobreSubtitulo: "Más de una década brindando soluciones legales en República 
     equipoTitulo:"Nuestro Equipo",
 equipoSub:"Profesionales comprometidos con tu éxito legal",
 
-    equipo1Cargo:`Especialista en Derecho Civil, Comercial, Corporativo y Empresarial. Constitución de sociedades y negociación de contratos nacionales e internacionales.`,
-equipo1Descripcion:`Experiencia en gobierno corporativo, cumplimiento normativo, derecho bancario y gestión de activos. Litigación estratégica, resolución de conflictos, responsabilidad civil, sucesiones y derecho laboral.`,
+    equipo1Cargo:`Especialista en Derecho Civil, Comercial y Corporativo. Constitución de sociedades y contratos.`,
+equipo1Descripcion:`Experiencia en gobierno corporativo, cumplimiento normativo, derecho bancario y litigación civil, laboral y sucesoral.`,
 
 equipo2Cargo:"Socia - Derecho Familiar y Civil",
 equipo2Descripcion:"Especialista en Derecho de la Propiedad (Inmobiliario), Derecho de Familia y Derecho Civil.",
@@ -179,7 +179,7 @@ abogado2:"Licdo. Johnnyfer Varela Martínez – Abogado Asociado",
 abogado3:"Licdo. José Domingo Pichardo Ramírez – Abogado Asociado",
 abogado4:"Licda. Yokaira Karina Pérez Chivilli – Abogada Asociada – Of Counsel",
 abogado5:"Licda. Ella Nayira Medina Feliz – Abogada Asociada – Of Counsel",
-abogado6:"Licdo. Norberto A. de la Rosa Herrera – Abogado Asociado – Of Counsel",
+abogado6:"Licdo. Luis miguel vidal cordero A. de la Rosa Herrera – Abogado Asociado – Of Counsel",
 
 abogadosAsociadosCierre:"Gracias a la combinación de experiencia, ética profesional y formación jurídica especializada, el equipo de <strong>LegalPlus Abogados Consultores</strong> trabaja cada día para ofrecer servicios legales confiables, innovadores y adaptados a las necesidades de quienes buscan <strong>abogados en la República Dominicana</strong>.",
 
@@ -276,9 +276,8 @@ sobreSubtitulo: "Over a decade providing legal solutions in the Dominican Republ
 equipoTitulo:"Our Team",
 equipoSub:"Professionals committed to your legal success",
 
-equipo1Cargo: `Specialist in Civil, Commercial, Corporate, and Business Law. Company formation and contract negotiation at both national and international levels.`,
-
-equipo1Descripcion: `Experience in corporate governance, regulatory compliance, banking law, and asset management. Strategic litigation, dispute resolution, civil liability, estate planning, and labor law.`,
+equipo1Cargo: `Specialist in Civil, Commercial, and Corporate Law. Company formation and contract management.`,
+equipo1Descripcion: `Experience in corporate governance, regulatory compliance, banking law, and civil, labor, and estate litigation.`,
 
 equipo2Cargo:"Partner - Family and Civil Law",
 equipo2Descripcion:"Specialist in Property Law (Real Estate), Family Law and Civil Law.",
@@ -387,7 +386,7 @@ abogado2:"Johnnyfer Varela Martínez – Associate Lawyer",
 abogado3:"José Domingo Pichardo Ramírez – Associate Lawyer",
 abogado4:"Yokaira Karina Pérez Chivilli – Associate Lawyer – Of Counsel",
 abogado5:"Ella Nayira Medina Feliz – Associate Lawyer – Of Counsel",
-abogado6:"Norberto A. de la Rosa Herrera – Associate Lawyer – Of Counsel",
+abogado6:"Luis miguel vidal cordero A. de la Rosa Herrera – Associate Lawyer – Of Counsel",
 
 abogadosAsociadosCierre:"Thanks to the combination of experience, professional ethics, and specialized legal training, the team at <strong>LegalPlus Abogados Consultores</strong> works every day to offer reliable, innovative legal services adapted to the needs of those seeking <strong>lawyers in the Dominican Republic</strong>.",
 
