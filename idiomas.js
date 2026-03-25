@@ -90,7 +90,7 @@ equipo6Descripcion:"Encargada de Administración y Finanzas. Responsable de la g
 equipo7Cargo:"Civil y Procesal; Contratos y Responsabilidad Civil.",
 equipo7Descripcion:"Experta en Derecho Civil y Procesal Civil. Responsabilidad Civil y gestión de Contratos y Obligaciones.",
 
-equipo8Cargo:"Especialista en Derecho Comercial y Mercantil, con enfoque en Familia, Sucesiones y RR. HH.",
+equipo8Cargo:"Especialista en Derecho Civil, Comercial y Mercanti.",
 equipo8Descripcion:"Especialista en Derecho Comercial y Mercantil, con experiencia en Derecho de Familia, Sucesiones y gestión en Recursos Humanos.",
 
 cargoCEO:"- Socio Fundador",
@@ -300,7 +300,7 @@ equipo6Descripcion:"Head of Administration and Finance. Responsible for operatio
 equipo7Cargo:"Civil and Procedural Law; Contracts and Civil Liability.",
 equipo7Descripcion:"Expert in Civil Law and Civil Procedure. Civil liability and management of contracts and obligations.",
 
-equipo8Cargo:"Specialist in Commercial and Corporate Law, with a focus on Family Law, Inheritance, and Human Resources.",
+equipo8Cargo:"Specialist in Civil, Commercial, and Mercantile Law.",
 equipo8Descripcion:"Specialist in Commercial and Corporate Law, with experience in Family Law, Inheritance, and Human Resources management.",
 
 cargoCEO:"- Founding Partner",
