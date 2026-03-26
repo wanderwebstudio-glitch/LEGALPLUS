@@ -71,7 +71,7 @@ equipoSub:"Profesionales comprometidos con tu éxito legal",
     equipo1Cargo:`Especialista en Derecho Civil, Comercial y Corporativo. Constitución de sociedades y contratos.`,
 equipo1Descripcion:`Experiencia en gobierno corporativo, cumplimiento normativo, derecho bancario y litigación civil, laboral y sucesoral.`,
 
-equipo2Cargo:"Socia - Derecho Familiar y Civil",
+equipo2Cargo:"Asociado - Derecho Familiar y Civil",
 equipo2Descripcion:"Especialista en Derecho de la Propiedad (Inmobiliario), Derecho de Familia y Derecho Civil.",
 
 equipo3Cargo:"Abogados Asociados Senior",
@@ -87,13 +87,13 @@ equipo5Descripcion:"Especialista en responsabilidad civil y accidentes de tráns
 equipo6Cargo:"Especialista en Derecho de Familia, regímenes matrimoniales y Consultoría en Derecho Sustantivo y RR.HH",
 equipo6Descripcion:"Encargada de Administración y Finanzas. Responsable de la gestión operativa, control presupuestario y optimización de recursos de la firma.",
 
-equipo7Cargo:"Civil y Procesal; Contratos y Responsabilidad Civil.",
+equipo7Cargo:"Abogada Asociada Especialista en Derecho Civil, Procesal Civil y sucesiones y Familia.",
 equipo7Descripcion:"Experta en Derecho Civil y Procesal Civil. Responsabilidad Civil y gestión de Contratos y Obligaciones.",
 
-equipo8Cargo:"Especialista en Derecho Civil, Comercial y Mercanti.",
+equipo8Cargo:"Especialista en Derecho Civil, Comercial y Mercantil.",
 equipo8Descripcion:"Especialista en Derecho Comercial y Mercantil, con experiencia en Derecho de Familia, Sucesiones y gestión en Recursos Humanos.",
 
-cargoCEO:"- Socio Fundador",
+cargoCEO:"- Socio ",
 tituloAbogadosAsociados:"Abogados Asociados",
 
 abogadoAsociado:"Abogado Asociado",
@@ -279,7 +279,7 @@ equipoSub:"Professionals committed to your legal success",
 equipo1Cargo: `Specialist in Civil, Commercial, and Corporate Law. Company formation and contract management.`,
 equipo1Descripcion: `Experience in corporate governance, regulatory compliance, banking law, and civil, labor, and estate litigation.`,
 
-equipo2Cargo:"Partner - Family and Civil Law",
+equipo2Cargo:" Founding - Family and Civil Law",
 equipo2Descripcion:"Specialist in Property Law (Real Estate), Family Law and Civil Law.",
 
 equipo3Cargo:"Senior Associate Lawyers",
@@ -296,13 +296,13 @@ equipo5Descripcion:"Specialist in civil liability and traffic accidents, with ex
 equipo6Cargo: "Specialist in Family Law, marital regimes, and consulting in Substantive Law and Human Resources.",
 equipo6Descripcion:"Head of Administration and Finance. Responsible for operational management, budget control, and optimization of the firm's resources.",
 
-equipo7Cargo:"Civil and Procedural Law; Contracts and Civil Liability.",
+equipo7Cargo:"Associate Attorney. Specialist in Civil Law, Civil Procedure, Family Law, and Estate Law.",
 equipo7Descripcion:"Expert in Civil Law and Civil Procedure. Civil liability and management of contracts and obligations.",
 
 equipo8Cargo:"Specialist in Civil, Commercial, and Mercantile Law.",
 equipo8Descripcion:"Specialist in Commercial and Corporate Law, with experience in Family Law, Inheritance, and Human Resources management.",
 
-cargoCEO:"- Founding Partner",
+cargoCEO:"- Founding ",
 tituloAbogadosAsociados:"Associate Lawyers",
 
 abogadoAsociado:"Associate Lawyer",
