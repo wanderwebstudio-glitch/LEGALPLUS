@@ -179,7 +179,8 @@ abogado2:"Licdo. Johnnyfer Varela Martínez – Abogado Asociado",
 abogado3:"Licdo. José Domingo Pichardo Ramírez – Abogado Asociado",
 abogado4:"Licda. Yokaira Karina Pérez Chivilli – Abogada Asociada – Of Counsel",
 abogado5:"Licda. Ella Nayira Medina Feliz – Abogada Asociada – Of Counsel",
-abogado6:"Licdo. Luis miguel vidal cordero A. de la Rosa Herrera – Abogado Asociado – Of Counsel",
+abogado6:"Licdo. Luis miguel vidal cordero A. ",
+abogado7:"Licdo. De la Rosa Herrera – Abogado Asociado – Of Counsel ",
 
 abogadosAsociadosCierre:"Gracias a la combinación de experiencia, ética profesional y formación jurídica especializada, el equipo de <strong>LegalPlus Abogados Consultores</strong> trabaja cada día para ofrecer servicios legales confiables, innovadores y adaptados a las necesidades de quienes buscan <strong>abogados en la República Dominicana</strong>.",
 
