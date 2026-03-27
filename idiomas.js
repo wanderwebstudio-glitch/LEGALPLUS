@@ -17,7 +17,7 @@ abogados:"ABOGADOS CONSULTORES",
 
 /* HERO */
 heroTitulo:"Expertos en Soluciones Legales",
-heroTexto: "En <strong>LegalPlus</strong> somos un bufete de abogados en República Dominicana especializado en brindar asesoría legal profesional en derecho civil, penal, familiar y corporativo. Nuestro equipo combina experiencia jurídica y un enfoque moderno para ofrecer soluciones legales efectivas y proteger los intereses de nuestros clientes.",
+heroTexto: "En <strong>LegalPlus Abogados</strong> somos un bufete de abogados en República Dominicana especializado en brindar asesoría legal profesional en derecho civil, penal, familiar y corporativo. Nuestro equipo combina experiencia jurídica y un enfoque moderno para ofrecer soluciones legales efectivas y proteger los intereses de nuestros clientes.",
 btnAsesoria:"Solicitar Asesoría",
 btnServicios:"Nuestros Servicios",
 
@@ -211,7 +211,7 @@ abogadosAsociadosCierre:"Gracias a la combinación de experiencia, ética profes
 
     appointmentButton: "Agendar Cita",
 
-    copyright: "© 2023 LegalPlus Abogados Consultores. Todos los derechos reservados.",
+    copyright: "© 2026 LegalPlus Abogados Consultores. Todos los derechos reservados.",
     design: "Diseño adaptado a Material Design 3",
 
 },
@@ -228,7 +228,7 @@ consulta:"Free Consultation",
 abogados:"LEGAL CONSULTANTS",
 /* HERO */
 heroTitulo:"Experts in Legal Solutions",
-heroTexto:"At <strong>LegalPlus</strong>, we are a law firm in the Dominican Republic specialized in providing professional legal advice in civil, criminal, family, and corporate law. Our team combines legal expertise with a modern approach to deliver effective legal solutions and protect our clients’ interests.",
+heroTexto:"At <strong>LegalPlus Lawyers</strong>, we are a law firm in the Dominican Republic specialized in providing professional legal advice in civil, criminal, family, and corporate law. Our team combines legal expertise with a modern approach to deliver effective legal solutions and protect our clients’ interests.",
 btnAsesoria:"Request Consultation",
 btnServicios:"Our Services",
 
@@ -416,7 +416,7 @@ abogadosAsociadosCierre:"Thanks to the combination of experience, professional e
 
     appointmentButton: "Book Appointment",
 
-    copyright: "© 2023 LegalPlus Legal Consultants. All rights reserved.",
+    copyright: "© 2026 LegalPlus Legal Consultants. All rights reserved.",
     design: "Design adapted to Material Design 3"
 }
 
